@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-900: #00439C;
+  --color-blue-800:#004BBC;
+}
+
+@font-face {
+  font-family: "MaShanZheng";
+  src: url("/src/assets/fonts/MaShanZheng.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
