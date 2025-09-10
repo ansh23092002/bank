@@ -7,9 +7,9 @@
     return (
       <div className=" ">
         {/* landing page */}
-        <div className=" h-[100vh] bg-[linear-gradient(145deg,#ffffff_6%,#40C6FF_31%)]  relative">
+        <div className=" h-[100vh] bg-[linear-gradient(145deg,#ffffff_6%,#40C6FF_31%)]  relative overflow-hidden">
       
-          <img src={img} alt="background watermark " className="absolute  max-sm:h-full max-sm:w-auto  lg:-bottom-85 object-cover " />
+          <img src={img} alt="background watermark " className="absolute  max-sm:h-full max-sm:w-auto  lg:-bottom-85 " />
           <div className="absolute pl-10 md:p-5 lg:ml-[79px] md:top-25 lg:top-40 top-40 ">
             <h1 className=" text-[30px] md:text-[20px] lg:text-[50px] font-semibold text-white">
               {" "}

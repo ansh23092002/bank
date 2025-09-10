@@ -12,6 +12,11 @@ import Group from '../assets/Group.png';
 import finger from '../assets/union.png';
 import person from '../assets/person1.jpg';
 import coin from '../assets/coin5.png'
+import sild from '../assets/security.png'
+import card from '../assets/Credit-Protection.png'
+import biometric from '../assets/Biometric-protection.png';
+import password from '../assets/password.png';
+import contract from '../assets/signed-contract.png';
 
 export const loan_type = [
   { id: "1", Heading: "Personal Loan", src: personal },
@@ -31,3 +36,8 @@ export const frameGroup = Group;
 export const framefinger = finger;
 export const person1 = person;
 export const coin5 = coin;
+export const security = sild;
+export const cardpassword = password;
+export const cardcontract = contract;
+export const cardbiometric = biometric;
+export const cardcard = card;
