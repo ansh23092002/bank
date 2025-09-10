@@ -11,6 +11,7 @@ import Card3 from '../assets/FrameCard3.png';
 import Group from '../assets/Group.png';
 import finger from '../assets/union.png';
 import person from '../assets/person1.jpg';
+import coin from '../assets/coin5.png'
 
 export const loan_type = [
   { id: "1", Heading: "Personal Loan", src: personal },
@@ -29,3 +30,4 @@ export const Framecard3 = Card3;
 export const frameGroup = Group;
 export const framefinger = finger;
 export const person1 = person;
+export const coin5 = coin;

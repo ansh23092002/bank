@@ -1,21 +1,14 @@
 import React from "react";
-import { defineConfig } from "vite";
+import { Link } from "react-router-dom";
 
-const About=()=> {
+
+ const About = ()=> {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-200 to-white">
-      {/* Navbar */}
-      <header className="flex justify-between items-center px-8 py-4 bg-transparent">
-        <h1 className="text-2xl font-bold text-blue-900">Bank</h1>
-        <nav className="bg-white/40 backdrop-blur-lg px-6 py-2 rounded-full flex gap-6 text-blue-900 font-medium">
-          <a href="#" className="hover:text-blue-600">About Us</a>
-          <a href="#" className="hover:text-blue-600">Personal Loan</a>
-          <a href="#" className="hover:text-blue-600">Security</a>
-        </nav>
-      </header>
+    <div className="min-h-screen  [background:linear-gradient(179deg,rgba(113,217,255,1)_23%,rgba(255,255,255,1)_73%)]">
+     
 
       {/* Hero Section */}
-      <section className="text-center mt-20 px-6">
+      <section className="text-center px-6 pt-30 ">
         <h2 className="text-4xl md:text-5xl font-light text-blue-900 leading-snug">
           On a Mission to Make <br />
           Finance Simple, Secure <br />
@@ -24,7 +17,8 @@ const About=()=> {
       </section>
 
       {/* Cards Section */}
-      <section className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 px-8 max-w-6xl mx-auto">
+      
+      <section className="mt-16 grid grid-cols-1  md:grid-cols-3 gap-8 px-8 max-w-6xl mx-auto p-10">
         <div className="bg-white shadow-md rounded-xl p-6 text-center">
           <h3 className="text-lg font-bold text-blue-700 mb-4">Who We are</h3>
           <p className="text-gray-600">
@@ -33,7 +27,7 @@ const About=()=> {
           </p>
         </div>
 
-        <div className="bg-white shadow-md rounded-xl p-6 text-center">
+        <div className="bg-white shadow-md rounded-xl p-6 text-center  ">
           <h3 className="text-lg font-bold text-blue-700 mb-4">What We do</h3>
           <p className="text-gray-600">
             We simplify personal finance by providing digital tools that help
@@ -50,8 +44,29 @@ const About=()=> {
           </p>
         </div>
       </section>
+
+     {/* about text */}
+      <section className="m-10 max-w-6xl ">
+        <h2 className="text-lg text-blue-800 font-bold pb-3">About su</h2>
+        <p className="">We simplify personal finance by providing digital tools that help you save smarter, spend wisely, and grow your money—all in one secure platform.
+From instant personal loans and UPI-enabled payments to automated bill tracking, expense insights, and smart investments, we make money management effortless and transparent.<br/>
+Whether you're building your savings, paying bills, or planning for the future, our all-in-one fintech solution ensures everything is done quickly, securely, and with complete control at your fingertips.</p>
+
+      </section>
     </div>
   );
 }
 
-export default About;
+export default  About;
+
+// import React from 'react'
+
+// const About = () => {
+//   return (
+//     <div>
+//       about
+//     </div>
+//   )
+// }
+
+// export default About
